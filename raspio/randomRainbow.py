@@ -1,6 +1,6 @@
 '''
 randomRainbow.py
-Display a random set of colors with the RasPiO InsPiRing
+Display a random set of colors using the RasPiO InsPiRing
 Author: Darrell Little
 Date: 7/3/2017
 Licensed under the GNU General Public License v3.0
@@ -12,7 +12,7 @@ from random import random
 import apa  # apa.py must be in the same folder with this file
 
 numleds = 8  # Set to number of leds in array
-brightness = 5  # Set between 0 (off) and 31 (full on *CAUTION: EXTREMELY BRIGHT*
+brightness = 5  # Set between 0 (off) and 31 (full on *CAUTION: EXTREMELY BRIGHT*)
 delay = 0.1  # Set in seconds, smaller number will be smoother transition between colors
 hue = 0  # this variable will change inside the loop
 

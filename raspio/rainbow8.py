@@ -1,6 +1,6 @@
 '''
 rainbow8.py
-Display a rainbow of colors with the RasPiO InsPiRing
+Display a rainbow of colors using the RasPiO InsPiRing
 Author: Darrell Little
 Date: 7/3/2017
 Licensed under the GNU General Public License v3.0
@@ -12,7 +12,7 @@ import colorsys
 import apa  # apa.py must be in the same folder with this file
 
 numleds = 8  # Set to number of leds in array
-brightness = 3  # Set between 0 (off) and 31 (full on *CAUTION: EXTREMELY BRIGHT*
+brightness = 3  # Set between 0 (off) and 31 (full on *CAUTION: EXTREMELY BRIGHT*)
 delay = 0.02  # Set in seconds, smaller number will be smoother transition between colors
 
 ledstrip = apa.Apa(numleds)  # initialize the apa object
